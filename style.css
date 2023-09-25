@@ -201,10 +201,10 @@ footer{
   background-color: grey;
   color: black;
   text-align: center;
-  margin-top: 40px;
-}
-.copyright{
-  padding: 10px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 900px){
  
