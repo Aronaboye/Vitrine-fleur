@@ -213,6 +213,12 @@ footer{
     text-align: center;
     font-size: 30px;
   }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+  }
   header section {
     width: 100%;
     margin: auto 0;
@@ -229,7 +235,7 @@ footer{
     margin: 0!important;
   }
   .nav{
-    margin: 0 50px;
+    display: none;
   }
   .description{
     margin: 10px 10px;  
@@ -237,6 +243,9 @@ footer{
   .description img{
     width: 100%;
     height: auto;
+  }
+  .description p{
+    padding: 0 100px;
   }
   p{
     width: auto!important;
@@ -276,9 +285,6 @@ footer{
 }
 .infos div p{
   padding: 10px!important;
-}
-.nav nav{
-  position: relative;
 }
 .burger{
   content: "";
